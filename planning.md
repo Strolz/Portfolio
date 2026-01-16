@@ -24,6 +24,7 @@ Page 2: Gallery / Projects
 
 - Nav Bar
 - Grid: 2 rows to columns 4 ever photos linking to 4 pages I have created 
+- Image Pixels : 474x520
 
 
 ---------------------------------
