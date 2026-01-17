@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    padding: ;
+    margin: 50px ;
+    font-weight: ;
+    text-align: center;
+    text-decoration: ;
+    color: ;
+    background-color: ;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: ;
+    padding: ;
+    margin:;
+    font-weight: ;
+    color: ;
+    background-color: ;
+}
+
+.page {
+    padding: 0 40px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    padding: ;
+    margin: ;
+    color: ;
+    background-color: ;
+    
+}
+
+.logo {
+    background-size: 100px;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: white ;
+    height: 100px ;
+    width: 100px ;
+    display: block;
+    margin: 0 auto;
+}

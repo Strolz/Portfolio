@@ -32,9 +32,15 @@ Page 3: Inspirations - Philosophical and other
 
 /* Research 2 pivotal programers from history and add to inspirations */
 
+- Nav Bar
+- 2 columns, each starting vertically with a photo of the inspiration 
+- Each column will have a short paragraph describing my inspiration
 
 
 
 
 ---------------------------------
 Page 4: Contact Me
+
+/* Set stylish background
+/* Standard form 
