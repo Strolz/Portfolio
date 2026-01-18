@@ -36,8 +36,13 @@ Page 3: Inspirations - Philosophical and other
 - 2 columns, each starting vertically with a photo of the inspiration 
 - Each column will have a short paragraph describing my inspiration
 
+/* Inspirations : Guido van Rossum & Tim Berners‑Lee
 
-
+- For each inspiration, capture:
+    • Who they are
+    • What they built
+    • Why it mattered
+    • What you personally take from their philosophy
 
 ---------------------------------
 Page 4: Contact Me

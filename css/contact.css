@@ -1,0 +1,116 @@
+html {
+    font-size: 20px;
+}
+
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+legend {
+    display: flex;
+    justify-content: row;
+    order: 2;
+    border: 2px;
+    border-style: solid;
+    padding-right: 25px; 
+    padding-left: 25px;
+    margin-left: 5px;
+}
+
+fieldset {
+    padding: 1.5rem;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+    width: auto;
+}
+
+.form__label {
+    margin-bottom: .25rem;
+}
+
+.form__row {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    font-size: 20px;
+}
+
+.form__row--options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.form__option {
+    flex-wrap: wrap;
+    max-width: 15rem;
+    line-height: 1;
+}
+
+.form__option--label {
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+}
+
+.form__option--label span {
+    display: inline-block;
+    max-width: 7ch;
+    white-space: normal;
+    line-height: 1.2;
+}
+
+.form__status {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;    
+}
+
+.form__date {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+p {
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center;
+}
+
+.form__label-wrap {
+    text-align: left;
+    width: 50%;
+    margin-left: 1rem;
+}
+
+.form__textarea {
+    height: 3rem;
+}
+
+.form__submit {
+    width: 25%;
+    font-size: 15px;
+}
