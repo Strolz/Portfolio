@@ -1,18 +1,10 @@
-html {
-    font-size: 20px;
-}
-
-.page {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .form {
     width: 600px;
     margin: 0 auto;
     padding: 1rem;
+    margin-top: 25rem;
+    color: aliceblue;
 }
 
 legend {
