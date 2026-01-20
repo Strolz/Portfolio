@@ -10,7 +10,7 @@ Page 4: Contact Me
 ---------------------------------
 Page 1: About Me - Front-End Developer (Early Career)
 
-- Nav Bar w/ images/coding-two.jpg
+- Nav Bar 
 - Header, Centered and clean in xlarge font size 
 - Main Hero Picture 
 - Horizontal text boxes - The Vibe / Aspirations / Actively Coding
@@ -22,7 +22,7 @@ Page 2: Gallery / Projects
 /* Find clean background and keep page simple and artistic */
 /* Research cool CSS animations when hovering
 
-- Nav Bar w/ images/coding-two.jpg
+- Nav Bar 
 - Grid: 2 rows to columns 4 ever photos linking to 4 pages I have created 
 - Image Pixels : 474x520
 
@@ -32,7 +32,7 @@ Page 3: Inspirations - Philosophical and other
 
 /* Research 2 pivotal programers from history and add to inspirations */
 
-- Nav Bar w/ images/coding-two.jpg
+- Nav Bar 
 - 2 columns, each starting vertically with a photo of the inspiration 
 - Each column will have a short paragraph describing my inspiration
 
@@ -47,7 +47,6 @@ Page 3: Inspirations - Philosophical and other
 ---------------------------------
 Page 4: Contact Me
 
-/* Set stylish background
 /* Standard form 
 
-- Nav Bar w/ images/coding-two.jpg
+- Nav Bar 

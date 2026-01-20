@@ -2,25 +2,23 @@
 html {
     background-image: url("../images/treebkgrd.jpg");
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0 auto;
     width: 100%;
-}
-
-body {
-    background-image: url("../images/treebkgrd.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
 }
 
 nav {
     display: flex;
     justify-content: end;
+    align-items: end;
     font-size: x-large;
     color: aliceblue;
     font-family: "Limelight"
@@ -46,9 +44,13 @@ nav {
 .main {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     color: aliceblue;
     gap: 2rem;
+    min-height: 75vh;
+    max-width: 750px;
+    margin-top: 50px;
 }
 
 .main__info {
@@ -56,4 +58,19 @@ nav {
     background-color: rgb(169, 162, 189);
     border-radius: 20px 20px 20px 20px;
     padding: 1.5rem;
+}
+
+.field {
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    row-gap: 3rem;
+    column-gap: 50px;
+}
+
+.field__thumbnail {
+    
 }
