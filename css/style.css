@@ -5,6 +5,7 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 .page {
@@ -34,7 +35,7 @@ nav {
 }
 
 
-.home--header {
+.home--header, .gallery--header {
     justify-items: center;
     color: aliceblue;
     font-family: "Limelight";
@@ -48,7 +49,6 @@ nav {
     align-items: center;
     color: aliceblue;
     gap: 2rem;
-    min-height: 75vh;
     max-width: 750px;
     margin-top: 50px;
 }
@@ -57,20 +57,27 @@ nav {
     text-align: center;
     background-color: rgb(169, 162, 189);
     border-radius: 20px 20px 20px 20px;
-    padding: 1.5rem;
+    padding: 2rem;
+    background-size: 50px 50px;
+    
+}
+
+.main__title {
+    font-size: 30px;
 }
 
 .field {
-    display: grid;
-    grid-template-columns:50% 50%;
-    grid-template-rows: 50% 50%;
-    width: 1000px;
-    height: 1000px;
-    margin: 0 auto;
-    row-gap: 3rem;
-    column-gap: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 100px;
 }
 
 .field__thumbnail {
-    
+
+}
+
+img {
+    width: 300px;
+   
 }
