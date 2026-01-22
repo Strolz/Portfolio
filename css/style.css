@@ -5,7 +5,6 @@ html {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    
 }
 
 .page {
@@ -42,7 +41,19 @@ nav {
     font-size: 25px;
 }
 
-.main {
+.inspiration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: aliceblue;
+    gap: 10rem;
+    margin-top: 50px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Story Script";
+}
+
+.info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,19 +61,17 @@ nav {
     color: aliceblue;
     gap: 2rem;
     max-width: 750px;
-    margin-top: 50px;
 }
 
-.main__info {
+.info__main {
     text-align: center;
     background-color: rgb(169, 162, 189);
     border-radius: 20px 20px 20px 20px;
     padding: 2rem;
-    background-size: 50px 50px;
-    
+    max-width: 750px;
 }
 
-.main__title {
+.info__title {
     font-size: 30px;
 }
 
@@ -73,11 +82,30 @@ nav {
    margin-top: 100px;
 }
 
-.field__thumbnail {
-
+img {
+    width: 400px;
+    height: 600px; 
 }
 
-img {
-    width: 300px;
-   
+.inspiration__image {
+    margin-left: 30px;
+}
+
+.inspiration__title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-right:2rem;
+}
+
+.inspiration__title-wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-right:2rem;
+    margin-bottom: -2rem;
+}
+
+.inspiration__text {
+    font-size: 25px;
 }
