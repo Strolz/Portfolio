@@ -13,6 +13,7 @@ html {
     align-items: center;
     margin: 0 auto;
     width: 100%;
+   
 }
 
 nav {
@@ -21,7 +22,7 @@ nav {
     align-items: end;
     font-size: x-large;
     color: aliceblue;
-    font-family: "Limelight"
+    font-family: "Limelight";
 }
 
 .nav__link {
@@ -33,12 +34,14 @@ nav {
     color: aliceblue;
 }
 
-
-.home--header, .gallery--header {
+.page__header, .gallery {
     justify-items: center;
+    align-items: center;
     color: aliceblue;
     font-family: "Limelight";
     font-size: 25px;
+    max-height: 100px;
+    margin-top: 100px;
 }
 
 .inspiration {
@@ -67,12 +70,18 @@ nav {
     text-align: center;
     background-color: rgb(169, 162, 189);
     border-radius: 20px 20px 20px 20px;
-    padding: 2rem;
     max-width: 750px;
 }
 
 .info__title {
     font-size: 30px;
+}
+
+.info__text,
+p {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 1rem;
 }
 
 .field {
@@ -84,7 +93,7 @@ nav {
 
 img {
     width: 400px;
-    height: 600px; 
+    height: 500px; 
 }
 
 .inspiration__image {
@@ -104,8 +113,4 @@ img {
     font-size: 25px;
     margin-right:2rem;
     margin-bottom: -2rem;
-}
-
-.inspiration__text {
-    font-size: 25px;
 }

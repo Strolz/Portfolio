@@ -10,9 +10,7 @@
 
 legend {
     display: flex;
-    justify-content: row;
-    order: 2;
-    border: 2px;
+    border: 2px solid;
     border-style: solid;
     padding-right: 25px; 
     padding-left: 25px;
@@ -85,12 +83,6 @@ fieldset {
     display: flex;
     justify-content: space-between;
     padding-right: 1rem;
-}
-
-p {
-    box-sizing: border-box;
-    font-size: 14px;
-    text-align: center;
 }
 
 .form__label-wrap {
