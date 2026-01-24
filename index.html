@@ -1,91 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="css/layout.css">
-        <meta charset="utf-8">
-        <title>HTML Form Practice</title>
+        <meta charset="UTF-8">
+        <title>Welcome</title>
+        <link rel="icon" type="image/png" href="images/deployed_code_history_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
     </head>
+
     <body>
+        <nav>
+            <a class="nav__link" href="index.html">Home</a>
+            <a class="nav__link" href="gallery.html">Gallery</a>
+            <a class="nav__link" href="inspirations.html">Inspirations</a>
+            <a class="nav__link" href="contact-me.html">Contact</a>
+        </nav>
+
         <div class="page">
-            <form class="form" action="gallery.html" method="post">
-                <fieldset class="form__section">
-                    <legend>Add User</legend>
-                        <div class="form__group">
-                            <label for="firstName" class="form__label">First Name:</label>
-                            <input type="text" class="form__input" id="firstName" name="first_name">
-                        </div>
+            <header class="page__header">
+                <h1 class="page__title">Hi I'm Anton</h1>
+                <h2 class="page__title">a front__end-dev in (earlyAccess)</h2>
+            </header>
 
-                        <div class="form__group">
-                            <label for="lastName" class="form__label">Last Name:</label>
-                            <input type="text" class="form__input" id="lastName" name="last_name">
-                        </div>
-
-                        <div class="form__group">
-                            <label for="email" class="form__label">Email:</label>
-                            <input type="email" class="form__input" id="email" name="email_address">
-                        </div>
-                    <div class="form__row">
-                        <div class="form__group">
-                            <label for="status" class="form__label">Status:</label>
-                            <select name="status" class="form__status" id="status">
-                                <option value=""></option>
-                                <option value="student">Student</option>
-                                <option value="teacher">Teacher</option>
-                                <option value="guest">Guest</option>
-                            </select>
-                        </div>
-
-                            <div class="form__group">
-                                <label for="currentDate" class="form__label">Date:</label>
-                                <input type="date" class="form__date" id="date" name="currentDate">
-                            </div>
-                    </div>
-
-                        <div class="form__group">
-                            <p>Choose your favorite programming language:</p>
-                    <div class="form__row">
-                            <label>
-                                <input type="radio" name="language" value="html">
-                                HTML
-                            </label>
-                            
-                            <label>
-                                <input type="radio" name="language" value="CSS">
-                                CSS
-                            </label>
-
-                            <label>
-                                <input type="radio" name="language" value="javaScript">
-                                JavaScript
-                            </label>
-                        </div>
-                    </div>                        
-                            <div class="form__group">
-                                <div class="form__label-wrap">
-                                <label for="comments" class="form__label">Comments:</label>
-                                </div>
-                                <textarea name="comments" class="form__textarea"></textarea>                            
-                            </div>
-                    <div class="form__row--options">
-                            <div class="form__group">
-                                <label for="signUp" class="form__option--label">
-                                    <input type="checkbox" class="form__option" id="signUp" name="signUp" value="signUp">
-                                    <span>Sign up for news</span>
-                                </label>
-                            </div>
-
-                            <div class="form__group">
-                                <label for="agree" class="form__option--label">
-                                    <input type="checkbox" class="form__option" id="agree" name="agree" value="agree">
-                                    <span>Agree to terms</span>
-                                </label>
-                            </div>
-                    </div>
-                            <div class="form__group">
-                                <button type="submit" class="form__submit">Back to Gallery</button>
-                            </div>
-                </fieldset>
-            </form>
+            <div class="info">
+                <div class="info__main">
+                    <h2 class="info__title">Welcome to my coding journey</h2>
+                    <p class="info__text">For now, my world is front-end as I push toward     something greater. With dreams of becoming a full-stack software engineer my mission is to code everyday non stop for one year! Over the next year this site will exand and develop with my skillset in real time. Today design, tomorrow architecture!
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
