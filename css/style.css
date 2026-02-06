@@ -1,5 +1,6 @@
 
 html,body {
+    min-height: 100%;
     margin: 0;
     padding: 0;
 }
@@ -53,12 +54,31 @@ nav {
 .inspiration {
     display: flex;
     flex-direction: column;
+    align-items: center;
     color: aliceblue;
-    gap: 10rem;
     margin-left: auto;
     margin-right: auto;
     font-family: "Story Script";
-    max-width: 1000px;
+    max-width: 750px;
+}
+
+.inspiration__title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.inspiration__title-wrapper {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.inspiration__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .info {
@@ -94,29 +114,7 @@ p {
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
-}
-
-img {
-  
-}
-
-.inspiration__image {
-  
-}
-
-.inspiration__title {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    margin-right:2rem;
-}
-
-.inspiration__title-wrapper {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    margin-right:2rem;
-    margin-bottom: -2rem;
+   gap: 2rem;
 }
 
 .form__input,
