@@ -7,6 +7,9 @@ html,body {
 
 .page {
    min-height: 100dvh; 
+   overflow-y: auto;
+   overflow-x: hidden;
+   height: 100dvh;
 }
 
 .pager {
@@ -23,13 +26,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+    
 }
 
 nav {
     display: flex;
     justify-content: end;
     align-items: end;
-    font-size: x-large;
+    font-size: 30px;
     color: aliceblue;
     font-family: "Limelight";
 }
@@ -102,8 +107,7 @@ nav {
     font-size: 30px;
 }
 
-.info__text,
-p {
+.info__text, p {
     font-size: 25px;
     font-weight: 400;
     padding: 1rem;
