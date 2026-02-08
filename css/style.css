@@ -70,13 +70,13 @@ nav {
 .inspiration__title {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .inspiration__title-wrapper {
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .inspiration__section {
@@ -119,6 +119,19 @@ nav {
    justify-content: space-between;
    align-items: center;
    gap: 2rem;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Limelight";
+}
+
+a:visited {
+    color: aliceblue;
 }
 
 .form__input,
