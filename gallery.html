@@ -12,14 +12,24 @@
 
     <body>
         <div class="page">
-            <header>
-                <nav>
-                    <a class="nav__link" href="index.html">Home</a>
-                    <a class="nav__link" href="gallery.html">Gallery</a>
-                    <a class="nav__link" href="inspirations.html">Inspirations</a>
-                    <a class="nav__link" href="contact-me.html">Contact</a>
-                </nav>
-            </header>
+            <nav>
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="gallery.html">Gallery</a>
+                <a class="nav__link" href="inspirations.html">Inspirations</a>
+                <a class="nav__link" href="contact-me.html">Contact</a>
+                <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox"/>
+                        <label class="menu__btn" for="menu__toggle">
+                        <span></span>
+                        </label>
+                    <ul class="menu__box">
+                        <li><a class="menu__item" href="index.html">Home</a></li>
+                        <li><a class="menu__item" href="gallery.html">Gallery</a></li>
+                        <li><a class="menu__item" href="inspirations.html">Inspirations</a></li>
+                        <li><a class="menu__item" href="contact-me.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
 
             <div class="gallery">
                 <h1>Starter Projects</h1>
