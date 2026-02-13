@@ -1,31 +1,19 @@
 
 .form {
-    width: 75%;
-    margin: 0 auto;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin: .5rem;
     color: aliceblue;
     font-size: x-large;
 }
 
-legend {
-    display: flex;
-    border: 2px solid;
-    border-style: solid;
-    padding-right: 25px; 
-    padding-left: 25px;
-    margin-left: 5px;
-}
 
-fieldset {
-    padding: 1.5rem;
-}
 
 .form__group {
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
     align-items: center;
-    width: auto;
 }
 
 .form__label {
@@ -49,14 +37,13 @@ fieldset {
 .form__input,
 .form__select,
 .form__textarea {
-    width: 50%;
-    box-sizing: border-box;
+    width: 75%;
+    background-color: gray;
 }
 
 .form__option {
     flex-wrap: wrap;
     max-width: 15rem;
-    line-height: 1;
 }
 
 .form__option--label {
@@ -67,7 +54,6 @@ fieldset {
 
 .form__option--label span {
     display: inline-block;
-    max-width: 7ch;
     white-space: normal;
     line-height: 1.2;
 }

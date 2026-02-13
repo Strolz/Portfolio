@@ -21,6 +21,10 @@ h2 {
     text-align: center;
 }
 
+h2 {
+    margin-top: -20px;
+}
+
 body {
     background-image: url("../images/treebkgrd.jpg");
     background-repeat: no-repeat;
@@ -72,7 +76,7 @@ nav {
     
     /* Show hamburger menu */ 
     .hamburger-menu { 
-        position: relative;
+        position: fixed;
         display: flex;
         width: 35px;
         height: 30px;
@@ -149,10 +153,10 @@ nav {
 .gallery {
     justify-items: center;
     align-items: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: "Limelight";
-    font-size: 25px;
-    margin: 2rem;
+    font-size: 20px;
+   
 }
 
 .inspiration {
@@ -169,13 +173,7 @@ nav {
 .inspiration__title {
     display: flex;
     justify-content: center;
-    font-size: 30px;
-}
-
-.inspiration__title-wrapper {
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .inspiration__section {
@@ -232,7 +230,6 @@ a:visited {
     color: aliceblue;
 }
 
-.form__input,
-.form__textarea {
-    background-color: gray;
-}
+img {
+     border-radius: 20px 20px 20px 20px;
+    }
