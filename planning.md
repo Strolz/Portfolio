@@ -31,30 +31,50 @@ Page 3: Inspirations - Philosophical and other
 Inspirations : Guido van Rossum & Tim Berners‑Lee
 
 - For each inspiration, capture:
-    • Who they are
-    • What they built
-    • Why it mattered
-    • What you personally take from their philosophy
-
+• Who they are
+• What they built
+• Why it mattered
+• What you personally take from their philosophy
 ---------------------------------
 Page 4: Contact Me
 
 - Nav Bar 
-
 - Standard form 
+
+
+
+
 
 =============================
 PHASE 2: MOBILE OVERHAUL
 =============================
+Global:
 
+~~ Create hamburger menu and link to all~~
+~~ Change global font to something with better reability
+
+>> Add Media query :
+~~ Switch from standard nav to hamburger menu at 768 px break~~
+~~ Add media query to scale images to column format at high break point
 ---------------------------------
 Page 1: About Me - Front-End Developer (Early Career)
 
+~~ Remove all text other than "Hi I'm Anton" & Welcome to my coding journey ~~
+~~ Create JS function to type "coding journey!" when users access index.html each time
+~~ Create sound byte to play as coding journey spells on the screen
 ---------------------------------
 Page 2: Gallery / Projects 
 
+~~ Create image slide carousel for projects images
+~~ Rebuild whack mole game to scale for mobile viewport, create img thumbnail and add to carousel
 ---------------------------------
 Page 3: Inspirations - Philosophical and other
 
+~~ Restyle both images and add Inspiration names to the the image itself
+~~ Create subpages for each inspiration image and link image to new page
+~~ Redesign subpagees for inspirations and link nav bar, hamburger menu and background
 ---------------------------------
 Page 4: Contact Me
+
+~~ Research more modern mobile form designs and choose design concept 
+~~ Rebuild / Redesign contact form 

@@ -27,7 +27,7 @@
                     <ul class="menu__box">
                         <li><a class="menu__item" href="index.html">Home</a></li>
                         <li><a class="menu__item" href="gallery.html">Gallery</a></li>
-                        <li><a class="menu__item" href="inspirations.html">Inspirations</a></li>
+                        <li><a class="menu__item" href="inspirations.html">Inspiration</a></li>
                         <li><a class="menu__item" href="contact-me.html">Contact</a></li>
                     </ul>
                 </div>
@@ -38,31 +38,29 @@
                 <h2>...And let me hear your thoughts!</h2>
             </div>
 
-            <div>
-                <form class="form" action="mailto:tonystrolz@gmail.com" method="post" enctype="text/plain">
-                    <fieldset class="form__section">
-                        <div class="form__group">
-                            <label for="firstName" class="form__label">First Name</label>
-                            <input type="text" class="form__input" id="firstName" name="first_name">
+            <form class="form" action="mailto:tonystrolz@gmail.com" method="post" enctype="text/plain">
+                <fieldset class="form__section">
+                    <div class="form__group">
+                        <label for="firstName" class="form__label">First Name</label>
+                        <input type="text" class="form__input" id="firstName" name="first_name">
+                    </div>
+                    <div class="form__group">
+                        <label for="lastName" class="form__label">Last Name</label>
+                        <input type="text" class="form__input" id="lastName" name="last_name">
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email</label>
+                        <input type="email" class="form__input" id="email" name="email_address">
+                    </div>
+                    <div class="form__group">
+                        <label for="comments" class="form__label">Comments</label>
+                        <textarea name="comments" class="form__textarea"></textarea>                
+                    </div>
+                    <div class="form__group">
+                        <button type="submit" class="form__submit">Send</button>
                         </div>
-                        <div class="form__group">
-                            <label for="lastName" class="form__label">Last Name</label>
-                            <input type="text" class="form__input" id="lastName" name="last_name">
-                        </div>
-                        <div class="form__group">
-                            <label for="email" class="form__label">Email</label>
-                            <input type="email" class="form__input" id="email" name="email_address">
-                        </div>
-                        <div class="form__group">
-                            <label for="comments" class="form__label">Comments</label>
-                            <textarea name="comments" class="form__textarea"></textarea>                
-                        </div>
-                        <div class="form__group">
-                            <button type="submit" class="form__submit">Send</button>
-                         </div>
-                    </fieldset>
-                </form>
-            </div>
+                </fieldset>
+            </form>
         </div>
     </body>
 </html>
