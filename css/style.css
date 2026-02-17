@@ -1,9 +1,8 @@
 
 html,body {
-    min-height: 100%;
     margin: 0;
     padding: 0;
-    overflow:hidden
+    overflow: hidden;
 }
 
 .page {
@@ -41,12 +40,15 @@ nav {
     padding: 1rem;
     font-size: 30px;
     color: aliceblue;
-    font-family: "Limelight";
+    font-family: "Orbitron";
 }
 
 .nav__link {
     text-decoration: none;
     margin-right: 1rem;
+    font-family: "Orbitron";
+    font-weight: bolder;
+
 }
 
 .nav__link:visited {
@@ -143,20 +145,37 @@ nav {
    padding: 10px;
    color: #333;
    text-decoration: none;
+   border: 1px solid rgb(255, 255, 255);
 }
 .menu__item:hover {
    background-color: #7a7a7a;
-   width: 90%;
 }
 
-/* ----------- Hamburger Menu ---------------- */
+/* -----------END Hamburger Menu ---------------- */
 
-.gallery {
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
     margin-top: -2rem;
     color: rgb(255, 255, 255);
-    font-family: "Limelight";
-    font-size: 20px;
+    font-family: "Story Script";
+    font-weight: 900;
+    font-size: 40px;
    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: -2rem;
+    color: rgb(255, 255, 255);
+    font-family: "Story Script";
+    font-weight: 900;
+    font-size: 20px;
 }
 
 .inspiration {
@@ -186,28 +205,20 @@ nav {
 .info {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0 auto;
     align-items: center;
     color: aliceblue;
-    gap: 2rem;
-    max-width: 750px;
-}
-
-.info__main {
     text-align: center;
-    background-color: rgb(169, 162, 189);
-    border-radius: 20px 20px 20px 20px;
-    max-width: 750px;
+    max-width: 600px;
 }
 
 .info__title {
     font-size: 30px;
 }
 
-.info__text, p {
+p {
     font-size: 25px;
     font-weight: 400;
-    padding: 1rem;
 }
 
 .field {
@@ -223,8 +234,8 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 30px;
-    font-family: "Limelight";
+    font-size: 25px;
+    font-weight: 500;
 }
 
 a:visited {
@@ -263,14 +274,14 @@ img {
 }
 
 .slide img {
-    width: 100%;
+    width: 85%;
 }
 
 /* Navigation Buttons */
 .prev, .next {
     position: absolute;
     top: 50%;
-    background-color: rgba(0,0,0,0.5);
+    background-color:rgb(169, 162, 189);
     color: white;
     border: none;
     padding: 10px;

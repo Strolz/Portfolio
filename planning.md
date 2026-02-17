@@ -51,7 +51,8 @@ PHASE 2: MOBILE OVERHAUL
 Global:
 
 ~~ Create hamburger menu and link to all~~
-~~ Change global font to something with better reability
+~~ Change global font to something with better reability 
+~~ Add black seperating lines for hamburger menu
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
@@ -65,13 +66,16 @@ Page 1: About Me - Front-End Developer (Early Career)
 ---------------------------------
 Page 2: Gallery / Projects 
 
-~~ Create image slide carousel for projects images
+~~ Create image slide carousel for projects images ~~
+~~ recreat images for improved resolution
 ~~ Rebuild whack mole game to scale for mobile viewport, create img thumbnail and add to carousel
+~~ 
 ---------------------------------
 Page 3: Inspirations - Philosophical and other
 
 ~~ Restyle both images and add Inspiration names to the the image itself
 ~~ Create subpages for each inspiration image and link image to new page
+~~ On subpages link informational video 
 ~~ Redesign subpagees for inspirations and link nav bar, hamburger menu and background
 ---------------------------------
 Page 4: Contact Me
