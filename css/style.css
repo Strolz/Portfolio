@@ -162,8 +162,8 @@ nav {
     color: rgb(255, 255, 255);
     font-family: "Story Script";
     font-weight: 900;
-    font-size: 40px;
-   
+    font-size: 35px;
+    width: 90%;
 }
 
 .title {
@@ -173,9 +173,9 @@ nav {
     margin: 0 auto;
     margin-top: -2rem;
     color: rgb(255, 255, 255);
-    font-family: "Story Script";
+    font-family: "orbitron";
     font-weight: 900;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .inspiration {
