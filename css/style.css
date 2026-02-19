@@ -64,27 +64,6 @@ nav {
 }
 
 /* ----------- Hamburger Menu ---------------- */
-@media (max-width: 768px) { 
-    /* Give the hamburger breathing room */
-    nav { 
-        justify-content: space-between; 
-    }
-    
-    /* Hide desktop links */ 
-    .nav__link { 
-        display: none;
-
-    } 
-    
-    /* Show hamburger menu */ 
-    .hamburger-menu { 
-        position: fixed;
-        display: flex;
-        width: 35px;
-        height: 30px;
-        z-index: 10;
-    } 
-}
 
 .menu__btn {
    display: inline-block;
@@ -93,6 +72,7 @@ nav {
    width: 35px;
    height: 30px;
 }
+
 .menu__btn span,
 .menu__btn span::before,
 .menu__btn span::after {
@@ -104,28 +84,35 @@ nav {
    position: absolute;
    transition: all 0.3s;
 }
+
 .menu__btn span::before {
    content: '';
    top: -10px;
 }
+
 .menu__btn span::after {
    content: '';
    top: 10px;
 }
+
 #menu__toggle {
    display: none;
 }
+
 #menu__toggle:checked + .menu__btn span {
    background-color: transparent;
 }
+
 #menu__toggle:checked + .menu__btn span::before {
    transform: rotate(45deg);
    top: 0;
 }
+
 #menu__toggle:checked + .menu__btn span::after {
    transform: rotate(-45deg);
    top: 0;
 }
+
 .menu__box {
    display: none;
    position: absolute;
@@ -137,9 +124,11 @@ nav {
    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
    list-style: none;
 }
+
 #menu__toggle:checked ~ .menu__box {
    display: block;
 }
+
 .menu__item {
    display: block;
    padding: 10px;
@@ -147,6 +136,7 @@ nav {
    text-decoration: none;
    border: 1px solid rgb(255, 255, 255);
 }
+
 .menu__item:hover {
    background-color: #7a7a7a;
 }
@@ -179,9 +169,10 @@ nav {
 }
 
 .inspiration {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 75% 75%;
+    gap: 4rem;
+    justify-content: center;
     color: aliceblue;
     margin-left: auto;
     margin-right: auto;
@@ -190,8 +181,6 @@ nav {
 }
 
 .inspiration__title {
-    display: flex;
-    justify-content: center;
     font-size: 35px;
 }
 
@@ -199,7 +188,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: left;
 }
 
 .info {
@@ -294,4 +283,48 @@ img {
 
 .prev { 
     left: 10px; 
+}
+
+@media (max-width: 768px) { 
+    /* Give the hamburger breathing room */
+    nav { 
+        justify-content: space-between; 
+    }
+    
+    /* Hide desktop links */ 
+    .nav__link { 
+        display: none;
+
+    } 
+    
+    /* Show hamburger menu */ 
+    .hamburger-menu { 
+        position: fixed;
+        display: flex;
+        width: 35px;
+        height: 30px;
+        z-index: 10;
+    } 
+
+    /* Convert Inspirations to Column*/
+    .inspiration {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: aliceblue;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Story Script";
+        max-width: 750px;
+    }
+
+    .inspiration__text {
+        width: 90%;
+    }
+
+    /* remove inspiration text, will be enabled once new pages and images linked 
+    .inspiration__text {
+        display: none;
+    }
+    */
 }

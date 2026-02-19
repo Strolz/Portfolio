@@ -52,33 +52,33 @@ Global:
 
 ~~ Create hamburger menu and link to all~~
 ~~ Add white border seperating lines for hamburger menu ~~
-~~ Change global font to something with better reability 
+~~ Change global font to something with better reability ~~
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
-~~ Add media query to scale images to column format at high break point 
+~~ Add media query to scale images to column format at break point ~~
 ---------------------------------
-Page 1: About Me - Front-End Developer (Early Career)
+Page 1: Hello (index.html)
 
 ~~ Remove all text other than "Hi I'm Anton" & Welcome to my coding journey ~~
 ~~ Create JS function to type "coding journey!" when users access index.html each time
 ~~ Create sound byte to play as coding journey spells on the screen
 ---------------------------------
-Page 2: Gallery / Projects 
+Page 2: Gallery (gallery.html)
 
 ~~ Create image slide carousel for projects images ~~
 ~~ recreate images for improved resolution 
 ~~ Rebuild whack mole game to scale for mobile viewport, create img thumbnail and add to carousel
 ~~ 
 ---------------------------------
-Page 3: Inspirations - Philosophical and other
+Page 3: Inspirations (inspirations.html)
 
 ~~ Restyle both images and add Inspiration names to the the image itself
 ~~ Create subpages for each inspiration image and link image to new page
 ~~ On subpages link informational video 
 ~~ Redesign subpagees for inspirations and link nav bar, hamburger menu and background
 ---------------------------------
-Page 4: Contact Me
+Page 4: Contact Me (contact-me.html);
 
 ~~ Research more modern mobile form designs and choose design concept 
 ~~ Rebuild / Redesign contact form 
