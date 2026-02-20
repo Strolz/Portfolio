@@ -1,19 +1,23 @@
 
+/*=========================*/
+/*    CONTACT-ME.HTML      */
+/*=========================*/
+
 .form {
+    align-content: center;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin: 0 auto;
-    color: aliceblue;
     font-size: x-large;
+    margin: 0 auto;
     max-width: 350px;
 }
 
 .form__group {
+    align-items: center;
     display: flex;
     flex-direction: column;
     margin-bottom: 1rem;
-    align-items: center;
 }
 
 .form__input,

@@ -53,6 +53,7 @@ Global:
 ~~ Create hamburger menu and link to all~~
 ~~ Add white border seperating lines for hamburger menu ~~
 ~~ Change global font to something with better reability ~~
+~~ Clean up stars on background image so it doesnt affect text on screen
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
@@ -61,7 +62,7 @@ Global:
 Page 1: Hello (index.html)
 
 ~~ Remove all text other than "Hi I'm Anton" & Welcome to my coding journey ~~
-~~ Create JS function to type "coding journey!" when users access index.html each time
+~~ Create JS function to type "coding journey!" when users access index.html each time~~
 ~~ Create sound byte to play as coding journey spells on the screen
 ---------------------------------
 Page 2: Gallery (gallery.html)
