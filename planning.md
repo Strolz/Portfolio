@@ -54,6 +54,7 @@ Global:
 ~~ Add white border seperating lines for hamburger menu ~~
 ~~ Change global font to something with better reability ~~
 ~~ Clean up stars on background image so it doesnt affect text on screen
+~~ Add gitHub Icon to navbar right hand side and set to display upper right hand corner at break~~
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
