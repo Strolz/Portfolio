@@ -42,9 +42,6 @@ Page 4: Contact Me
 - Standard form 
 
 
-
-
-
 =============================
 PHASE 2: MOBILE OVERHAUL
 =============================
@@ -55,7 +52,7 @@ Global:
 ~~ Change global font to something with better reability ~~
 ~~ Clean up stars on background image so it doesnt affect text on screen
 ~~ Add gitHub Icon to navbar right hand side and set to display upper right hand corner at break~~
-~~ Pick new Flavicon and link across all
+~~ Pick new Flavicon and link across all ~~
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
@@ -65,13 +62,13 @@ Page 1: Hello (index.html)
 
 ~~ Remove all text other than "Hi I'm Anton" & Welcome to my coding journey ~~
 ~~ Create JS function to type "coding journey!" when users access index.html each time~~
-~~ Create sound byte to play as coding journey spells on the screen !! this will move to phase 3
+
 ---------------------------------
 Page 2: Gallery (gallery.html)
 
 ~~ Create image slide carousel for projects images ~~
-~~ recreate images for improved resolution 
-~~ Rebuild whack mole game to scale for mobile viewport, create img thumbnail and add to carousel
+~~ Rebuild whack mole game to scale for mobile viewport 
+~~ create img thumbnail for whack a mole game and add to carousel
 ---------------------------------
 Page 3: Inspirations (inspirations.html)
 
@@ -84,3 +81,8 @@ Page 4: Contact Me (contact-me.html);
 
 ~~ Research more modern mobile form designs and choose design concept 
 ~~ Rebuild / Redesign contact form 
+----------------------------------
+
+
+
+~~ Create sound byte to play as coding journey spells on the screen !! this will move to phase 3
