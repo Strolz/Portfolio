@@ -305,6 +305,17 @@ nav {
     font-size: 35px;
 }
 
+.inspiration__text {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        color: aliceblue;
+        padding-top: 2rem;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "Story Script";
+        max-width: 750px;
+    }
 
 
 /*=========================*/

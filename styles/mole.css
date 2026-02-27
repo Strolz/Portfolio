@@ -1,0 +1,64 @@
+html {
+  background-color: black;
+}
+
+html,body {
+  overflow-x: hidden; 
+}
+
+.wgs {
+  height: 400px;
+  position: relative;
+  margin-left: 1rem;
+  width: 640px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.wgs__mole-head {
+  height: 237px;
+  margin: 6.25rem 4.75rem;
+  position: absolute;
+  width: 250px;
+  transition: margin-top .25s;
+}
+
+.wgs__dirt-pile {
+  height: 185px;
+  position: absolute;
+  width: 435px;
+  top: 262px;
+}
+
+.wgs__mole-head--hidden {
+  margin-top: 482px;
+}
+
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  padding: 20px;
+} 
+
+.sb__mole-counter {
+  text-align: right;
+} 
+
+.sb__score-holder {
+  flex: 1 0 0;
+} 
+
+ .sb__game-over--hidden {
+  display: none;
+} 
+
+.pf {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
