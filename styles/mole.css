@@ -20,22 +20,13 @@ html,body {
   box-sizing: border-box;
   color: white;
   display: flex;
-  font-size: 30px;
+  font-size: 25px;
   justify-content: space-between;
   max-width: 100%;
-  padding: 20px;
-} 
-
-.sb__score-holder {
-  flex: 1 0 0;
 } 
 
  .sb__game-over--hidden {
   display: none;
-} 
-
-.sb__mole-counter {
-  text-align: right;
 } 
 
 /*=========================*/
@@ -44,33 +35,43 @@ html,body {
 
 .pf {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
 }
 
 .wgs {
-  display: inline-block;
-  height: 400px;
-  margin-left: 1rem;
-  overflow: hidden;
   position: relative;
-  width: 640px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
 }
 
 .wgs__mole-head {
-  height: 237px;
-  margin: 6.25rem 4.75rem;
+  height: 100%;
+  object-fit: contain;
   position: absolute;
   transition: margin-top .25s;
-  width: 250px;
+  width: 100%;
 }
 
 .wgs__dirt-pile {
-  height: 185px;
   position: absolute;
-  top: 262px;
-  width: 435px;
+  height: 100%;
+  width: 100%;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 482px;
+  margin-top: 350px;
+}
+
+/*=========================*/
+/*       MEDIA QUERY       */
+/*=========================*/
+
+@media (max-width: 768px) {
+
+  .pf {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 }

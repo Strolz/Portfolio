@@ -325,8 +325,8 @@ nav {
 .video-container {
   position: relative;
   width: 95%;
-  max-width: 800px; /* optional */
-  margin: 0 auto;   /* centers it */
+  max-width: 800px; 
+  margin: 0 auto;   
   padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
   overflow: hidden;
