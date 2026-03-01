@@ -64,8 +64,9 @@ Page 1: Hello (index.html)
 Page 2: Gallery (gallery.html)
 
 ~~ Create image slide carousel for projects images ~~
-~~ Moved files for whack - a - mole game to their respected portfolio/ directories
-~~ Rebuild whack mole game to scale for mobile viewport 
+~~ Moved files for whack - a - mole game to their respected portfolio/ directories~~
+~~ Rebuild whack mole game to scale for mobile viewport ~~
+~~ Adjust break point design and fix gallery image centering issue
 ~~ create img thumbnail for whack a mole game and add to carousel
 ---------------------------------
 Page 3: Inspirations (inspirations.html)

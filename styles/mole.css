@@ -7,7 +7,11 @@ html {
 }
 
 html,body {
-  overflow-x: hidden; 
+  overflow: hidden; 
+}
+
+body {
+  height: 100dvh
 }
 
 /*=========================*/
@@ -36,32 +40,37 @@ html,body {
 .pf {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 100vh;
-}
-
-.wgs {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 4 / 3;
+  min-height: 100dvh;
   overflow: hidden;
 }
 
+.wgs {
+    position: relative;
+    width: 100%;
+    margin-left: 1rem;
+    overflow: hidden;
+    height: 75%;
+}
+
 .wgs__mole-head {
-  height: 100%;
-  object-fit: contain;
-  position: absolute;
-  transition: margin-top .25s;
-  width: 100%;
+    height: 80%;
+    object-fit: contain;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    position: absolute;
+    transition: margin-top .25s;
+    width: 55%;
 }
 
 .wgs__dirt-pile {
-  position: absolute;
-  height: 100%;
-  width: 100%;
+    position: absolute;
+    height: 39%;
+    margin-top: 18rem;
+    width: 95%;
 }
 
 .wgs__mole-head--hidden {
-  margin-top: 350px;
+  margin-top: 600px;
 }
 
 /*=========================*/
@@ -72,6 +81,34 @@ html,body {
 
   .pf {
     grid-template-columns: repeat(2, 1fr);
-}
+  }
+
+  .wgs {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 4rem;
+  }
+
+  .wgs__mole-head {
+    height: 51%;
+    object-fit: contain;
+    margin-left: .5rem;
+    position: absolute;
+    transition: margin-top .25s;
+    width: 80%;
+  }
+
+  .wgs__dirt-pile {
+    position: absolute;
+    height: 38%;
+    margin-top: 6.5rem;
+    width: 99%;
+  }
+
+  .wgs__mole-head--hidden {
+    margin-top: 375px;
+  }
 
 }
