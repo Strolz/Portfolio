@@ -27,6 +27,7 @@ body {
   font-size: 25px;
   justify-content: space-between;
   max-width: 100%;
+  padding: .25rem;
 } 
 
  .sb__game-over--hidden {
@@ -45,28 +46,28 @@ body {
 }
 
 .wgs {
-    position: relative;
-    width: 100%;
-    margin-left: 1rem;
-    overflow: hidden;
-    height: 75%;
+  position: relative;
+  width: 100%;
+  margin-left: 1rem;
+  overflow: hidden;
+  height: 95%;
 }
 
 .wgs__mole-head {
-    height: 80%;
-    object-fit: contain;
-    margin-top: 3rem;
-    margin-left: 5rem;
-    position: absolute;
-    transition: margin-top .25s;
-    width: 55%;
+  height: 80%;
+  object-fit: contain;
+  margin-top: 3rem;
+  margin-left: 4.5rem;
+  position: absolute;
+  transition: margin-top .25s;
+  width: 55%;
 }
 
 .wgs__dirt-pile {
-    position: absolute;
-    height: 39%;
-    margin-top: 18rem;
-    width: 95%;
+  position: absolute;
+  height: 39%;
+  margin-top: 16rem;
+  width: 95%;
 }
 
 .wgs__mole-head--hidden {
@@ -89,6 +90,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
     margin-bottom: 4rem;
+    height: 75%;
   }
 
   .wgs__mole-head {
@@ -98,6 +100,12 @@ body {
     position: absolute;
     transition: margin-top .25s;
     width: 80%;
+  }
+
+  .wgs__mole-head:active {
+    transform: scale(0.95);
+    box-shadow: 5px 20px 20px rgb(241, 3, 3);
+    border-radius: 20px 20px 20px 20px;
   }
 
   .wgs__dirt-pile {
