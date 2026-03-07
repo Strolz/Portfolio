@@ -66,8 +66,7 @@ Page 2: Gallery (gallery.html)
 ~~ Create image slide carousel for projects images ~~
 ~~ Moved files for whack - a - mole game to their respected portfolio/ directories~~
 ~~ Rebuild whack mole game to scale for mobile viewport ~~
-~~ Adjust break point design and fix gallery image centering issue
-~~ create img thumbnail for whack a mole game and add to carousel
+~~ Adjust break point design and fix gallery image centering issue ~~
 ---------------------------------
 Page 3: Inspirations (inspirations.html)
 
@@ -81,7 +80,10 @@ Page 4: Contact Me (contact-me.html);
 ~~ Research more modern mobile form designs and choose design concept 
 ~~ Rebuild / Redesign contact form 
 ----------------------------------
+Whack A mole Mobile 
 
+~~ redesign banner and place game over text in center of screen in large font
+----------------------------------
 
 
 ~~ Create sound byte to play as coding journey spells on the screen !! this will move to phase 3
