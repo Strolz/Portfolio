@@ -82,8 +82,8 @@ Page 4: Contact Me (contact-me.html);
 ----------------------------------
 Whack A mole Mobile 
 
-~~ redesign banner and place game over text in center of screen in large font
+~~ redesign banner
+~~ place game over text in center of screen in large font ~~
 ----------------------------------
-
 
 ~~ Create sound byte to play as coding journey spells on the screen !! this will move to phase 3

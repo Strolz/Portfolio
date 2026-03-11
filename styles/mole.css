@@ -25,10 +25,20 @@ body {
   color: white;
   display: flex;
   font-size: 25px;
+  font-weight: 400;
   justify-content: space-between;
   max-width: 100%;
   padding: .25rem;
 } 
+
+.sb__game-over {  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  font-size: 35px;
+}
 
  .sb__game-over--hidden {
   display: none;
