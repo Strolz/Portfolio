@@ -5,12 +5,13 @@
 
 .form {
     align-content: center;
-    color: aliceblue;
+    background-color: rgb(152, 207, 255);
+    color: black;
     display: flex;
     flex-direction: column;
     font-size: x-large;
     margin: 0 auto;
-    max-width: 350px;
+    max-width: 90%;
 }
 
 .form__group {
@@ -33,4 +34,5 @@
 
 .form__submit {
     font-size: 15px;
+    padding: 0 40% 0 40%;
 }

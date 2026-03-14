@@ -50,7 +50,7 @@ Global:
 ~~ Change global font to something with better reability ~~
 ~~ Add gitHub Icon to navbar right hand side and set to display upper right hand corner at break~~
 ~~ Pick new Flavicon and link across all ~~
-~~ Clean up stars on background image so it doesnt affect text on screen
+~~ Clean up stars on background image so it doesnt affect text on screen ~~
 
 >> Add Media query :
 ~~ Switch from standard nav to hamburger menu at 768 px break~~
