@@ -1,5 +1,5 @@
 
-const text = "Welcome to my coding journey!";
+const text = "Welcome to my portfolio!";
 const speed = 120; // milliseconds per character
 
 let index = 0;
