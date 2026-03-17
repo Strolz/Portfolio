@@ -261,7 +261,7 @@ nav {
 /* Navigation Buttons */
 .prev, .next {
     position: absolute;
-    top: 50%;
+    top: 45%;
     background-color:rgb(169, 162, 189);
     color: white;
     border: none;
@@ -270,11 +270,11 @@ nav {
 }
 
 .next { 
-    right: 12rem; 
+    right: 7%; 
 }
 
 .prev { 
-    left: 12rem; 
+    left: 7%; 
 }
 
 /*=========================*/
@@ -367,13 +367,7 @@ nav {
         z-index: 10;
     }
 
-    .next { 
-        right: 10px; 
-    }
-
-    .prev { 
-        left: 10px; 
-    }
+   
     
     /* Shrink typing intro on mobile*/
     .typing-intro {

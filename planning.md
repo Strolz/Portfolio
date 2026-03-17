@@ -66,7 +66,8 @@ Page 2: Gallery (gallery.html)
 ~~ Create image slide carousel for projects images ~~
 ~~ Moved files for whack - a - mole game to their respected portfolio/ directories~~
 ~~ Rebuild whack mole game to scale for mobile viewport ~~
-~~ Adjust break point design and fix gallery image centering issue ~~ Adjust prev/next arrow buttons to sit with image on full screen
+~~ Adjust break point design and fix gallery image centering issue ~~ 
+~~ Adjust prev/nex arrow buttons to sit with image on full screen
 ---------------------------------
 Page 3: Inspirations (inspirations.html)
 
@@ -83,6 +84,7 @@ Page 4: Contact Me (contact-me.html);
 Whack A mole Mobile 
 
 ~~ redesign banner
+~~ add Game Over Image and replace text
 ~~ place game over text in center of screen in large font ~~
 ----------------------------------
 
