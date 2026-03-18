@@ -19,8 +19,7 @@ body {
 /*=========================*/
 
 .sb {
-  background-color: cornflowerblue;
-  border-bottom: 1px solid #645DED;
+  background-color: rgb(86, 89, 94);
   box-sizing: border-box;
   color: white;
   display: flex;
@@ -35,9 +34,11 @@ body {
   position: fixed;
   top: 50%;
   left: 50%;
+  color: red;
+  font-family: "Rubik Wet Paint", system-ui;
   transform: translate(-50%, -50%);
   z-index: 9999;
-  font-size: 35px;
+  font-size: 30px;
 }
 
  .sb__game-over--hidden {

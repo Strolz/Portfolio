@@ -83,8 +83,8 @@ Page 4: Contact Me (contact-me.html);
 ----------------------------------
 Whack A mole Mobile 
 
-~~ redesign banner
-~~ add Game Over Image and replace text
+~~ redesign banner ~~
+~~ add Game Over ~~ 
 ~~ place game over text in center of screen in large font ~~
 ----------------------------------
 
