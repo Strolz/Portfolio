@@ -23,18 +23,14 @@ body {
    height: 100dvh;
 }
 
-a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 900;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
 }
 
-a:visited {
-    color: aliceblue;
-}
 
 .nav__right a {
   text-decoration: none;
