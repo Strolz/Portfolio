@@ -31,6 +31,12 @@ a:active {
   text-decoration: none;
 }
 
+a {
+    
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
 
 .nav__right a {
   text-decoration: none;
@@ -247,6 +253,8 @@ nav {
 
 /* Individual Slide */
 .slide {
+    display: flex;
+    flex-direction: column;
     min-width: 100%;
 }
 
