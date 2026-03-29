@@ -11,7 +11,7 @@
     flex-direction: column;
     font-size: x-large;
     margin: 0 auto;
-    max-width: 90%;
+    width: 25%
 }
 
 .form__group {
@@ -25,14 +25,39 @@
 .form__select,
 .form__textarea {
     background-color: gray;
+    width: 75%;
 }
 
 .form__textarea {
     height: 3rem;
-    width: 15rem;
+    width: 75%;
 }
 
 .form__submit {
-    font-size: 15px;
-    padding: 0 40% 0 40%;
+    font-size: 25px;
+    width: 75%;
+}
+
+@media (max-width: 768px) { 
+
+    .form {
+    width: 90%
+    }
+
+    .form__input,
+    .form__select,
+    .form__textarea {
+        background-color: gray;
+        width: 90%;
+    }
+
+    .form__textarea {
+        height: 3rem;
+        width: 90%;
+    }
+
+    .form__submit {
+        font-size: 25px;
+        width: 90%
+    }
 }
