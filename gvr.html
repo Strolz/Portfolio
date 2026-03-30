@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- Page metadata + global resources -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Guido Van Rossum</title>
+        <title>Welcome</title>
+
+        <!-- Favicon -->
         <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+        
+        <!-- Core stylesheets -->
+        <link rel="stylesheet" href="styles/contact.css">
         <link rel="stylesheet" href="styles/style.css">
+        
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Story+Script&display=swap" rel="stylesheet">
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     </head>
 
     <body>
-        <div class="page">
+         <div class="page">
+
+            <!-- ====================
+                  PRIMARY NAVIGATION 
+                 ==================== -->
             <nav>
+
+                <!-- Desktop nav Links -->
                 <a class="nav__link" href="index.html">Home</a>
                 <a class="nav__link" href="gallery.html">Gallery</a>
                 <a class="nav__link" href="inspirations.html">Inspirations</a>
                 <a class="nav__link" href="contact-me.html">Contact</a>
+                
+                <!-- Decorative / Layout anchors -->
+                <div class="nav__left"></div>
+               
+               <!-- External links (Github) -->
+                <div class="nav__right">
+                    <a href="https://github.com/Strolz" target="_blank">
+                        <i class="fa-brands fa-github fa-xl" style="color: rgb(255, 255, 255);"></i>
+                    </a>
+                </div>
+                
+                <!-- Mobile hamburger menu -->
                 <div class="hamburger-menu">
                         <input id="menu__toggle" type="checkbox"/>
                         <label class="menu__btn" for="menu__toggle">
@@ -34,7 +62,17 @@
                     </ul>
                 </div>
             </nav>
+
+            <!-- ===================
+                    INTRO SECTION 
+                 =================== -->
+            <div class="title">
                 <h3 class="inspiration__title">Guido van Rossum</h3>
+            </div>
+
+            <!-- ===================
+                    VIDEO SECTION 
+                 =================== -->
             <div class="video-container">
                 
                 <iframe src="https://www.youtube.com/embed/QXE5rEVlu20?si=ueG-dHSxT2ZGB5Mr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -42,6 +80,7 @@
                 
             </div>
 
+            <!-- Inspiration Information -->
             <div class="gvr-section">
                 <p class="inspiration__text">
                 A Dutch programmer, Guido van Rossum not only created Python but also served as its “Benevolent Dictator For Life” (BDFL) until stepping down on July 12, 2018. Over his career, he worked at several major research institutions, including Centrum Wiskunde & Informatica (CWI) in the Netherlands and the U.S. National Institute of Standards and Technology (NIST). From 2005 to 2012, Guido worked at Google, spending half his time improving the Python language. In 2013, he joined Dropbox, where he continued contributing to Python until his retirement in 2019. That retirement didn’t last long—he returned in 2020 to join Microsoft as a Distinguished Engineer, where he continues to influence the language he created.

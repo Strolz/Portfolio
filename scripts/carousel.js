@@ -1,16 +1,20 @@
 
+// Cache DOM elements
 const slides = document.querySelector('.slides');
 const slideElements = document.querySelectorAll('.slide');
 const prevButton = document.querySelector('.prev'); 
 const nextButton = document.querySelector('.next');
 
+// Track active slide with total count
 let currentIndex = 0;
 const totalSlides = slideElements.length;
 
+// Update carousel position
 function updateSlidePosition() {
     slides.style.transform = `translateX(-${currentIndex * 100}%)`;
 }
 
+// Handle next/prev navigation
 nextButton.addEventListener('click', function () {
   currentIndex++;
 
