@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Page metadata + global resources -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whack-A-Mole</title>
+
+    <!-- Favicon -->
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+    <!-- Core stylesheet -->
     <link rel="stylesheet" type="text/css" href="styles/mole.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="scripts/mole.js"></script>
   </head>
+
   <body>
-    
+
+    <!-- ====================
+              MOLE FIELD 
+         ==================== -->
     <div class="sb">
       <div class="sb__score-holder">Score <span class="sb__score">0</span></div>
       <div class="sb__game-over sb__game-over--hidden">Game Over</div>
@@ -49,7 +59,9 @@
         <img src="images/mole-head.png" class="wgs__mole-head wgs__mole-head--hidden">
         <img src="images/mole-hill.png" class="wgs__dirt-pile">
       </div>
-      
     </div>
+
+    <!-- Game mechanics script -->
+    <script type="text/javascript" src="scripts/mole.js"></script>
   </body>
 </html>
