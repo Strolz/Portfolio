@@ -43,7 +43,12 @@ body {
 
  .sb__game-over--hidden {
   display: none;
-} 
+}
+
+#reset {
+  position: fixed;
+  opacity: 0;
+}
 
 /*=========================*/
 /*       MOLE FIELD        */
