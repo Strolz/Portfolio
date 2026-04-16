@@ -5,10 +5,18 @@ let popupLength = 3000;
 let hideTimeout;
 let clickable = false;
 
+// Cache and hide reset button
+const reset = document.getElementById("reset");
+reset.classList.add("hidden")
+
+// Enable reset button 
+reset.addEventListener("click", () => location.reload());
+
 // Ends game when no mole heads remain
 function popUpRandomMole() {
   if (molesLeft <= 0) {
     document.querySelector('.sb__game-over').classList.remove('sb__game-over--hidden');
+    reset.classList.remove("hidden");
     return;
   }
 

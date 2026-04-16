@@ -47,6 +47,13 @@ body {
 
 #reset {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: .25rem;
+}
+
+.hidden {
   opacity: 0;
 }
 
