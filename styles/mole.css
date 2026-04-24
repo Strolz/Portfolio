@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: .25rem;
+  margin-top: .65rem;
 }
 
 .hidden {
@@ -117,29 +117,28 @@ body {
   }
 
   .wgs__mole-head {
-    height: 51%;
+    height: 110px;
     object-fit: contain;
-    margin-left: .5rem;
+    margin-left: 1rem;
     position: absolute;
     transition: margin-top .25s;
-    width: 80%;
+    width: 145px;
   }
 
   .wgs__mole-head:active {
-    transform: scale(0.95);
     box-shadow: 5px 20px 20px rgb(241, 3, 3);
     border-radius: 20px 20px 20px 20px;
   }
 
   .wgs__dirt-pile {
     position: absolute;
-    height: 38%;
+    height: 130px;
     margin-top: 6.5rem;
-    width: 99%;
+    width: 100%;
   }
 
   .wgs__mole-head--hidden {
-    margin-top: 600px;
+    margin-top: 400px;
   }
 
 }
