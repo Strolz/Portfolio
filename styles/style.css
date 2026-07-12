@@ -21,7 +21,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-
 .container {
   background-color: rgba(20, 20, 30, 0.8);
   backdrop-filter: blur(10px);
@@ -86,6 +85,17 @@ h3 {
 p {
     font-size: 25px;
     font-weight: 400;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /*=========================*/
@@ -233,6 +243,25 @@ nav {
     overflow: hidden;
     border-right: 3px solid white; /* cursor */
     animation: blink 0.7s infinite;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 75vw;          /* 3/4 of the screen */
+    margin: 2rem auto;
+}
+
+#about, #projects {
+  flex: 1;                           /* equal width columns */
+  background: rgba(20, 20, 30, 0.8); /* dark translucent card */
+  backdrop-filter: blur(10px);       /* glassy effect */
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  min-height: 200px;                 /* optional */
 }
 
 @keyframes blink {
