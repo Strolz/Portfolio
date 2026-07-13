@@ -12,9 +12,18 @@ function typeEffect() {
         element.textContent += text.charAt(index);
         index++;
         setTimeout(typeEffect, speed);
-        
+    } else {
+        typingFinished();
     }
 }
 
+function typingFinished() {
+    document.getElementById('about').classList.add('show');
+    
+    // Then show projects
+    setTimeout(() => {
+    document.getElementById('projects').classList.add('show');
+    }, 3000); // 5 seconds later
+}
 // Trigger typing immediately on page load
 window.addEventListener("DOMContentLoaded", typeEffect);
