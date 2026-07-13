@@ -32,8 +32,10 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
 }
 
 a {
