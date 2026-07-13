@@ -426,6 +426,16 @@ nav {
         font-size: 30px;
     }
 
+    .main-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        width: 75vw;          /* 3/4 of the screen */
+        margin: 2rem auto;
+    }
+
     .carousel-wrapper {
         display: flex;
         flex-direction: column;
