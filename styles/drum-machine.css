@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --light-grey: #efefef;
+  --white: #ffffff;
+  --very-dark-blue: #0a0a23;
+  --light-purple: #a78bfa;
+  --very-light-purple: #c4b5fd;
+  --purple: #8b5cf6;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue);
+  color: var(--light-grey);
+  font-family: sans-serif;
+}
+
+#drum-machine {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+#pad-bank {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.drum-pad {
+  padding: 2rem;
+  border-radius: 12px;
+  background: #333;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+}
+
+.drum-pad:active {
+  transform: scale(0.95);
+  background: #555;
+}
+
+#display {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: white;
+}
