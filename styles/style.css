@@ -88,6 +88,11 @@ p {
   transform: translateY(0);
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /*=========================*/
 /*       NAVIGATION        */
 /*=========================*/
@@ -245,13 +250,13 @@ nav {
 }
 
 #about, #projects {
-  flex: 1;                              /* equal width columns */
-  background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
-  backdrop-filter: blur(10px);          /* glassy effect */
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-  min-height: 200px;     
+    flex: 1;                              /* equal width columns */
+    background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
+    backdrop-filter: blur(10px);          /* glassy effect */
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    min-height: 200px;
 }
 
 @keyframes blink {
