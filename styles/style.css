@@ -263,6 +263,10 @@ nav {
     min-height: 200px;
 }
 
+#mobile-about, #mobile-projects {
+    display: none;
+}
+
 .project-entry, .project-list {
     display: flex;
     flex-direction: row;
@@ -327,6 +331,21 @@ nav {
     .main-title {
         font-size: 30px;
     }
+
+    #about, #projects {
+        display: none;
+
+    }
+
+#mobile-about, #mobile-projects {
+        flex: 1;                              /* equal width columns */
+        background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
+        backdrop-filter: blur(10px);          /* glassy effect */
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        min-height: 200px;
+    }   
 
     .main-section {
         display: flex;
