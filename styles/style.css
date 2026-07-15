@@ -263,7 +263,9 @@ nav {
     min-height: 200px;
 }
 
-#mobile-about, #mobile-projects {
+#mobile-about, 
+#mobile-projects,
+#mobile-github {
     display: none;
 }
 
@@ -334,7 +336,9 @@ nav {
         display: none;
     }
 
-    #mobile-about, #mobile-projects {
+    #mobile-about, 
+    #mobile-projects,
+    #mobile-github {
         justify-content: center;
         display: flex;
         flex: 1;
