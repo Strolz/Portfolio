@@ -20,13 +20,19 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: var(--very-dark-blue);
-  color: var(--light-grey);
-  font-family: sans-serif;
+  background: radial-gradient(
+    circle at top left,
+    #0a1a33 0%,
+    #0b2345 40%,
+    #0c2e5a 80%
+  );
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
 }
 
 #drum-machine {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
+  backdrop-filter: blur(10px);
   padding: 2rem;
   border-radius: 20px;
 }
