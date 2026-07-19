@@ -271,6 +271,10 @@ nav {
     width: 100%;                     /* ensures full horizontal space */
 }
 
+.mobile-section {
+    display: none;
+}
+
 .project-entry {
     display: flex;
     flex-direction: column;
@@ -281,10 +285,6 @@ nav {
 
 .project-entry:last-child {
     border-right: none;     /* removes sepertaor from last element */
-}
-
-.mobile-section {
-    display: none;
 }
 
 @keyframes blink {
@@ -344,6 +344,10 @@ nav {
 
     #about, #projects {
         display: none;
+    }
+
+    .mobile-section {
+        display: block;
     }
 
     #mobile-about, 
