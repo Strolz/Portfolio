@@ -45,7 +45,6 @@ a {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 25px;
 }
 
 .nav__right a {
@@ -281,6 +280,7 @@ nav {
     align-items: center;   /* centers icon + text horizontally */
     gap: .5rem;           /* optional spacing between icon and text */
     padding-top: 2rem;
+    font-size: 25px;
 }
 
 .project-entry:last-child {
