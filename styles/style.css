@@ -252,7 +252,9 @@ nav {
     margin: 2rem auto;
 }
 
-#about, #projects {
+#about, 
+#projects,
+#about-main {
     flex: 1;    
     background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
     backdrop-filter: blur(10px);          /* glassy effect */
