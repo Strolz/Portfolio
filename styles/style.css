@@ -249,7 +249,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    width: 50vw;
+    width: 40%;
     margin: 2rem auto;
 }
 
@@ -261,6 +261,14 @@ nav {
     padding: 1rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     min-height: 200px;
+    width: 100%;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;  /* spreads projects */
+    align-items: center;             /* keeps them vertically aligned */
+    width: 100%;                     /* ensures full horizontal space */
 }
 
 .project-entry {
@@ -271,18 +279,14 @@ nav {
     padding-top: 2rem;
 }
 
+.project-entry:last-child {
+    border-right: none;     /* removes sepertaor from last element */
+}
+
 #mobile-about, 
 #mobile-projects,
 #mobile-github {
     display: none;
-}
-
-.project-entry, .project-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
 }
 
 @keyframes blink {
