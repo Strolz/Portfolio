@@ -283,9 +283,7 @@ nav {
     border-right: none;     /* removes sepertaor from last element */
 }
 
-#mobile-about, 
-#mobile-projects,
-#mobile-github {
+.mobile-section {
     display: none;
 }
 
