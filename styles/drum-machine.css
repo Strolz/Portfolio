@@ -17,6 +17,7 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -29,6 +30,10 @@ body {
   color: #e5e5e5;
   font-family: 'Inter', sans-serif;
 }
+
+/*=========================*/
+/*    DRUM-MACHINE.HTML    */
+/*=========================*/
 
 #drum-machine {
   background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
