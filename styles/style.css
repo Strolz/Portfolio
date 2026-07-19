@@ -254,13 +254,21 @@ nav {
 }
 
 #about, #projects {
-    flex: 1;                              /* equal width columns */
+    flex: 1;    
     background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
     backdrop-filter: blur(10px);          /* glassy effect */
     border-radius: 12px;
-    padding: 2rem;
+    padding: 1rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     min-height: 200px;
+}
+
+.project-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers icon + text horizontally */
+    gap: .5rem;           /* optional spacing between icon and text */
+    padding-top: 2rem;
 }
 
 #mobile-about, 
