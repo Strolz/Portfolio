@@ -20,10 +20,17 @@ function typeEffect() {
 // Reveal info boxes with delay
 function typingFinished() {
     document.getElementById('about').classList.add('show');
+    document.getElementById('mobile-about').classList.add('show');
     
     setTimeout(() => {
     document.getElementById('projects').classList.add('show');
-    }, 500); // 5 seconds later
+    document.getElementById('mobile-projects').classList.add('show');
+    }, 500); 
+
+    setTimeout(() => {
+    document.getElementById('mobile-contact').classList.add('show');
+    }, 1000);
+
 }
 // Trigger typing immediately on page load
 window.addEventListener("DOMContentLoaded", typeEffect);
