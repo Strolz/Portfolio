@@ -6,7 +6,6 @@
 html,body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 body {
@@ -248,7 +247,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     gap: 2rem;
-    width: 50vw;
+    width: 40%;
     margin: 2rem auto;
 }
 
@@ -262,7 +261,8 @@ nav {
     padding: 1rem;
     box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     min-height: 200px;
-    width: 75%;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .project-list {
@@ -294,6 +294,7 @@ nav {
     50% { border-color: transparent; }
     100% { border-color: white; }
 }
+
 /*=========================*/
 /*       ABOUT.HTML        */
 /*=========================*/
@@ -304,7 +305,6 @@ nav {
     max-width: 25%;
     max-height: 25%;
 }
-
 
 /*=========================*/
 /*       MEDIA QUERY       */
