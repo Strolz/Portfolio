@@ -51,10 +51,6 @@ a {
   outline: none;
 }
 
-img {
-     border-radius: 20px 20px 20px 20px;
-}
-
 h1,
 h2,
 h3 {
@@ -302,8 +298,8 @@ nav {
 #main__img img {
     display: block;
     margin: 0 auto;
-    max-width: 25%;
-    max-height: 25%;
+    max-width: 25vw;
+    max-height: 25vw;
 }
 
 /*=========================*/
