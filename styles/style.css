@@ -9,22 +9,22 @@ html,body {
 }
 
 body {
-  margin: 0;
-  background: radial-gradient(
-    circle at top left,
-    #0a1a33 0%,
-    #0b2345 40%,
-    #0c2e5a 80%
-  );
-  color: #e5e5e5;
-  font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: radial-gradient(
+        circle at top left,
+        #0a1a33 0%,
+        #0b2345 40%,
+        #0c2e5a 80%
+    );
+    color: #e5e5e5;
+    font-family: 'Inter', sans-serif;
 }
 
 .page {
-   min-height: 100dvh; 
-   overflow-y: auto;
-   overflow-x: hidden;
-   height: 100dvh;
+    min-height: 100dvh; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100dvh;
 }
 
 a:link,
@@ -47,8 +47,8 @@ a {
 }
 
 .nav__right a {
-  text-decoration: none;
-  outline: none;
+    text-decoration: none;
+    outline: none;
 }
 
 h1,
@@ -72,23 +72,23 @@ h3 {
 
 p {
     font-size: 25px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .hidden {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease, transform 0.6s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
 .show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 /*=========================*/
@@ -293,7 +293,7 @@ nav {
 /*       ABOUT.HTML        */
 /*=========================*/
 
-#main__img img {
+#about__img img {
     display: block;
     margin: 0 auto;
     max-width: 25vw;
@@ -378,7 +378,17 @@ nav {
         justify-content: center;
         align-items: center;
         gap: 2rem;
-        width: 75vw;          /* 3/4 of the screen */
+        width: 100vw;   
     }
+
+    #about__img img {
+        display: block;
+        margin: 0 auto;
+        max-width: 75vw;
+        max-height: 75vw;
+        border-radius: 100px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
 
 }
