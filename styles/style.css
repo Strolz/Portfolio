@@ -294,6 +294,8 @@ nav {
 /*=========================*/
 
 #about__img img {
+    border-radius: 300px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     display: block;
     margin: 0 auto;
     max-width: 25vw;
