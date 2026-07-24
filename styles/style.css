@@ -293,6 +293,13 @@ nav {
     100% { border-color: white; }
 }
 
+@font-face {
+  font-family: 'jason';
+  src: url('../fonts/jason.regular.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 /*=========================*/
 /*       ABOUT.HTML        */
 /*=========================*/
@@ -304,6 +311,15 @@ nav {
     margin: 0 auto;
     max-width: 25vw;
     max-height: 25vw;
+}
+
+/*=========================*/
+/*      PROJECTS.HTML      */
+/*=========================*/
+
+.projects__title h1 {
+    font-size: 5rem;
+    font-family: 'jason', sans-serif;
 }
 
 /*=========================*/
