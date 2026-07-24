@@ -412,5 +412,9 @@ nav {
         box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     }
 
+    .projects__title h1 {
+        font-size: 3rem;
+        font-family: 'jason', sans-serif;
+    }
 
 }
