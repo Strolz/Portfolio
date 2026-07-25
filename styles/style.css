@@ -238,7 +238,8 @@ nav {
     animation: blink 0.7s infinite;
 }
 
-.main-section {
+.main-section,
+.projects__item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,7 +255,8 @@ nav {
 #about, 
 #projects,
 #main__img,
-.main__info {
+.main__info,
+.projects__item {
     flex: 1;    
     background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
     backdrop-filter: blur(10px);          /* glassy effect */
