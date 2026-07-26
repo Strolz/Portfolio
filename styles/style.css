@@ -419,4 +419,13 @@ nav {
         font-family: 'jason', sans-serif;
     }
 
+    .projects__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        width: 75vw;
+        height: 12vh;
+    }
+
 }
