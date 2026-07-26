@@ -21,12 +21,17 @@ body {
   justify-content: center;
   align-items: center;
   height: 100dvh;
+
   background: radial-gradient(
     circle at top left,
     #0a1a33 0%,
     #0b2345 40%,
     #0c2e5a 80%
   );
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
   color: #e5e5e5;
   font-family: 'Inter', sans-serif;
   overflow: hidden;
