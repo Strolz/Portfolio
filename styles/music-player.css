@@ -38,6 +38,14 @@ body {
   height: 100dvh;
 }
 
+.back-icon {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: white;
+  z-index: 100;
+}
+
 h1 {
   font-size: 1.125rem;
   line-height: 1.6;
