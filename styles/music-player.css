@@ -23,7 +23,10 @@
 }
 
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: radial-gradient(
     circle at top left,
     #0a1a33 0%,
@@ -32,6 +35,7 @@ body {
   );
   color: #e5e5e5;
   font-family: 'Inter', sans-serif;
+  height: 100dvh;
 }
 
 h1 {
@@ -48,7 +52,6 @@ ul {
 }
 
 .container {
-  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
