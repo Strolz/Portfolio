@@ -41,7 +41,7 @@ body {
 .back-icon {
   position: absolute;
   top: 2rem;
-  left: 2rem;
+  left: 1.25rem;
   color: white;
   z-index: 100;
 }
