@@ -12,7 +12,7 @@ const allSongs = [
     title: "Falling Down",
     artist: "Anton Strolz",
     duration: "3:12",
-    src: "music/Falling Down.wav",
+    src: "music/Falling Down.mp3",
   },
   {
     id: 1,
