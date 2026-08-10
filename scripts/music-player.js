@@ -9,10 +9,10 @@ const songArtist = document.getElementById("player-song-artist");
 const allSongs = [
   {
     id: 0,
-    title: "Scratching The Surface",
-    artist: "Quincy Larson",
-    duration: "4:25",
-    src: "https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3",
+    title: "Falling Down",
+    artist: "Anton Strolz",
+    duration: "3:12",
+    src: "music/Falling Down.wav",
   },
   {
     id: 1,
