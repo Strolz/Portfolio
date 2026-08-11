@@ -149,6 +149,8 @@ const highlightCurrentSong = () => {
 
 playButton.addEventListener("click", () => {
   if(userData.currentSong === null) {
+    userData.currentSong = userData.songs[0];   
+    setPlayerDisplay();   
     playSong(0);
   } else {
     playSong(userData.currentSong.id, false);
@@ -161,7 +163,9 @@ songs.forEach((song) => {
   const id = song.getAttribute("id").slice(5);
   const songBtn = song.querySelector("button");
   songBtn.addEventListener("click", () => {
-      playSong(Number(id));
+    userData.currentSong = userData.songs[id];   
+    setPlayerDisplay();   
+    playSong(Number(id));
   })
 })
 
