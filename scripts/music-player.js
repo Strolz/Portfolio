@@ -93,6 +93,8 @@ const playPreviousSong = () => {
 if (userData.currentSong === null) return;  
   const previousSong = getPreviousSong();
   if (previousSong) {
+    userData.currentSong = previousSong;   
+    setPlayerDisplay();
     playSong(previousSong.id);
   } else {
     playSong(userData.songs[0].id);
@@ -116,7 +118,8 @@ const playNextSong = () => {
     pauseSong();
     return;
   }
-  
+  userData.currentSong = nextSong;   
+  setPlayerDisplay();
   playSong(nextSong.id);
 };
 
