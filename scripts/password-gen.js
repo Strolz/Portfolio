@@ -1,4 +1,6 @@
-
+const pwLength = document.getElementById("pwgen__quantity");
+const genBtn = document.getElementById("pwgen__btn");
+const pwDisplay = document.getElementById("pwgen__display");
 
 function generatePassword(num) {
     
@@ -25,3 +27,4 @@ function generatePassword(num) {
     return newPassword;
 
 }
+
