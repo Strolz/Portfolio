@@ -1,3 +1,5 @@
+
+
 function generatePassword(num) {
     
     /* This creates the pool of selctable characters */
