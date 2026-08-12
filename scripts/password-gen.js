@@ -28,3 +28,6 @@ function generatePassword(num) {
 
 }
 
+genBtn.addEventListener("click", () => {
+    console.log(pwLength.value);
+})
