@@ -24,10 +24,10 @@ function generatePassword(num) {
         newPassword += getRandomChar();
     }
 
-    return newPassword;
+    return pwDisplay.innerText = newPassword;
 
 }
 
 genBtn.addEventListener("click", () => {
-    console.log(pwLength.value);
+    generatePassword(pwLength.value);
 })
