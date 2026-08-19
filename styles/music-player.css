@@ -2,9 +2,9 @@
   /* colors */
   --primary-color: #dfdfe2;
   --secondary-color: #ffffff;
-  --app-background-color: #4d4d62;
+  --app-background-color: rgba(20, 20, 30, 0.8);
   --background-color: #1b1b32;
-  --foreground-color: #3b3b4f;
+  --foreground-color: rgba(20, 20, 30, 0.8);
   --highlight-color: #f1be32;
 
   /* font sizes */
