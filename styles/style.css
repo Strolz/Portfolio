@@ -239,8 +239,7 @@ nav {
     animation: blink 0.7s infinite;
 }
 
-.main-section,
-.projects__item {
+.main-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -267,6 +266,12 @@ nav {
 
 .projects__item {
     max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 75rem;
+    margin: 1rem auto;
 }
 
 .project-list {
