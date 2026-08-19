@@ -4,14 +4,12 @@
 /*=========================*/
 
 .form {
-    align-content: center;
     background-color: rgb(152, 207, 255);
-    color: black;
     display: flex;
     flex-direction: column;
     font-size: x-large;
     margin: 0 auto;
-    width: 25%
+    width: 25%;
 }
 
 .form__group {
