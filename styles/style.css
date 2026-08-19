@@ -258,7 +258,6 @@ nav {
 #main__img,
 .main__info,
 .projects__item {
-    flex: 1;    
     background: rgba(20, 20, 30, 0.8);  /* dark translucent card */
     backdrop-filter: blur(10px);          /* glassy effect */
     border-radius: 12px;
