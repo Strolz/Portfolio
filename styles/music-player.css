@@ -180,12 +180,6 @@ button {
   border-bottom: 1px solid var(--background-color);
 }
 
-button:focus,
-.playlist-song:focus {
-  outline-style: dashed;
-  outline-width: 2px;
-}
-
 /* Playlist */
 .playlist {
   height: auto;
