@@ -2,54 +2,6 @@
 /*=========================*/
 /*    CONTACT-ME.HTML      */
 /*=========================*/
-html,body {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    margin: 0;
-    background: radial-gradient(
-        circle at top left,
-        #0a1a33 0%,
-        #0b2345 40%,
-        #0c2e5a 80%
-    );
-    color: #e5e5e5;
-    font-family: 'Inter', sans-serif;
-}
-
-.page {
-    min-height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -7rem;
-}
-
-a:link,
-a:visited,
-a:active {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    transform: scale(1.05);
-    transition: transform 0.2s ease;
-}
-
-a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.nav__right a {
-    text-decoration: none;
-    outline: none;
-}
 
 .form {
     background-color: rgb(152, 207, 255);
@@ -58,6 +10,7 @@ a {
     font-size: x-large;
     margin: 0 auto;
     width: 25%;
+    border-radius: 20px;
 }
 
 .form__group {
