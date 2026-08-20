@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'henny';
+  src: url('../fonts/HennyPenny-Regular.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+.form__title {
+    font-family: 'henny';
+    font-size: 5rem;
+    margin-bottom: -1rem;
+}
+
 .page__wrapper {
     min-height: 100dvh;
     display: flex;
