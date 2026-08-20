@@ -20,10 +20,10 @@ body {
 }
 
 .page {
-    min-height: 100dvh; 
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100dvh;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a:link,
