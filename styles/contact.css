@@ -11,6 +11,10 @@
     margin-top: -7rem;
 }
 
+fieldset {
+    border: none;
+}
+
 .form {
     background-color: rgb(152, 207, 255);
     display: flex;
