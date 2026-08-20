@@ -69,7 +69,7 @@ fieldset {
     .form__input,
     .form__select,
     .form__textarea {
-        background-color: gray;
+        background-color: white;
         width: 90%;
     }
 
