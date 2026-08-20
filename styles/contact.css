@@ -35,7 +35,7 @@ fieldset {
 .form__input,
 .form__select,
 .form__textarea {
-    background-color: gray;
+    background-color: white;
     width: 75%;
 }
 
@@ -47,6 +47,8 @@ fieldset {
 .form__submit {
     font-size: 25px;
     width: 75%;
+    background-color: gray;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) { 
