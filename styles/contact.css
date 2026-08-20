@@ -3,6 +3,14 @@
 /*    CONTACT-ME.HTML      */
 /*=========================*/
 
+.page__wrapper {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7rem;
+}
+
 .form {
     background-color: rgb(152, 207, 255);
     display: flex;
