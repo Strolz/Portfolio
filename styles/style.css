@@ -22,9 +22,9 @@ body {
 
 .page {
     min-height: 100dvh; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100dvh;
 }
 
 a:link,
