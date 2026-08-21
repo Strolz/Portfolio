@@ -66,6 +66,13 @@ fieldset {
         width: 90%
     }
 
+    .page__wrapper {
+        transform: translateY(-5rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .form__title {
         font-family: 'henny';
         font-size: 4rem;
