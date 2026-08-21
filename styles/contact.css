@@ -76,6 +76,7 @@ fieldset {
     }
 
     .page__wrapper {
+        max-height: 100dvh;
         transform: translateY(-5rem);
         display: flex;
         flex-direction: column;
