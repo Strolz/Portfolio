@@ -73,6 +73,11 @@ fieldset {
 }
 
 @media (max-width: 768px) { 
+    
+    body.no-scroll {
+        overflow: hidden;
+        height: 100%;
+    }
 
     .form {
         width: 90%
