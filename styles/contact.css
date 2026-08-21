@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+nav {
+    position: relative;
+    z-index: 10;
+}
+
 .form__title {
     font-family: 'henny';
     font-size: 5rem;
