@@ -51,6 +51,10 @@ fieldset {
 .form__textarea {
     background-color: white;
     width: 75%;
+    text-align: center;
+    height: 2rem;
+    border-radius: 20px;
+    font-size: 25px;
 }
 
 .form__textarea {
