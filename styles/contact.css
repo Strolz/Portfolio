@@ -60,6 +60,9 @@ fieldset {
 .form__textarea {
     height: 3rem;
     width: 75%;
+    height: 7rem;
+    resize: none;
+    overflow-y: auto;
 }
 
 .form__submit {
