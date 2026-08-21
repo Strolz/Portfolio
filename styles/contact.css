@@ -12,6 +12,7 @@
 }
 
 .page__wrapper {
+    transform: translateY(-7rem);
     min-height: calc(100vh - 60px);
     display: flex;
     flex-direction: column;
@@ -68,7 +69,6 @@ fieldset {
     .form__title {
         font-family: 'henny';
         font-size: 4rem;
-        margin-bottom: -1rem;
     }
 
     .form__input,
