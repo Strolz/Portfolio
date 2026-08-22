@@ -96,6 +96,7 @@ ul {
 /*=========================*/
 
 nav {
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     height: 60px;
