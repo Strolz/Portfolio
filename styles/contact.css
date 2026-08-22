@@ -105,6 +105,8 @@ fieldset {
 
     .form__textarea {
         width: 90%;
+        text-align: left;
+        border-radius: 0px;
     }
 
     .form__submit {
