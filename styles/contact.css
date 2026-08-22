@@ -76,7 +76,7 @@ fieldset {
     
     body.no-scroll {
         overflow: hidden;
-        height: 100dvh;
+        height: 100%;
     }
 
     .form {
