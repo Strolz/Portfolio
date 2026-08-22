@@ -108,7 +108,9 @@ fieldset {
     }
 
     .form__submit {
+        margin-top: 1rem;
         font-size: 25px;
-        width: 90%
+        width: 10rem;
+        color: white;
     }
 }
