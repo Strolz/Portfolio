@@ -49,6 +49,9 @@ a {
 .nav__right a {
     text-decoration: none;
     outline: none;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
 }
 
 h1,
