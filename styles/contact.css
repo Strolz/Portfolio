@@ -101,6 +101,7 @@ fieldset {
     .form__textarea {
         background-color: white;
         width: 90%;
+        font-size: 20px;
     }
 
     .form__textarea {
