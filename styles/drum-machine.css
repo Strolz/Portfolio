@@ -52,11 +52,18 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'henny';
+  src: url('../fonts/HennyPenny-Regular.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
 .main-subtitle {
   position: relative;
-  bottom: 8vh;
-  font-size: 7rem;
-  font-family: 'mura', sans-serif;
+  bottom: 6vh;
+  font-size: 6rem;
+  font-family: 'henny';
 }
 
 #drum-machine {
