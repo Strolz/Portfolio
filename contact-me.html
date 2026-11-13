@@ -62,7 +62,7 @@
                  =================== -->
         <div class="page__wrapper">
             <h2 class="form__title">Contact Me</h2>
-            <form class="form" action="mailto:tonystrolz@gmail.com" method="post" enctype="text/plain">
+            <form id="contact-form" class="form" method="post" enctype="text/plain">
                 <fieldset class="form__section">
                     <div class="form__group">
                         <label for="firstName" class="form__label">First Name</label>
@@ -86,5 +86,7 @@
                 </fieldset>
             </form>
         </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script src="scripts/contact-me.js" defer></script>
     </body>
 </html>
